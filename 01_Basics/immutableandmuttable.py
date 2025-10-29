@@ -121,3 +121,26 @@ print(f"x is: {(x)} and y is {(y)}")
 
 # https://youtu.be/MDZ4y-GgZ8k?si=R2GQiVAjfYInfnuv
 
+#! use Slicing to make copy and reference
+list1 = [1,2,3]
+
+# not a copy but reference
+list2 = list1
+
+list3 = [3,4,45]
+
+# to create a copy
+list4 = list3[:]
+
+
+# ! Equals
+
+n = [1,2,3]
+p = n
+
+print("checking similarities:", n == p, )
+print("Checking reference similarities:", n is p, )
+
+p = [1,2,3]
+
+print("Checking reference similarities:", n is p, )

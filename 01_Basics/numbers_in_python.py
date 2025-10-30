@@ -90,3 +90,24 @@ print("repr():", repr(date))   # datetime.datetime(2025, 10, 29, 12, 34, 56, 789
 # Creating human-readable string versions of objects
 # General string conversion
 # Formatting output
+
+# Complex Numbers (Iota Numbers)
+
+p = 2 + 1j;
+q = p + 1;
+
+x = p * 2;
+print(q, x)
+
+# octal numbers
+y = 0o20
+print(y)
+
+#Hexal numbers
+z = 0xFF
+print(z);
+
+# Binary Numbers
+y = 0b1000
+print(y);
+

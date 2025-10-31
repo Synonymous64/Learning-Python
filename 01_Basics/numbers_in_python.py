@@ -111,3 +111,19 @@ print(z);
 y = 0b1000
 print(y);
 
+# Random Choice
+import random
+# Between 1 to 9 (9 Included)
+x = random.randint(1, 10);
+print(x)
+
+# Random choices from the lists
+list1 = [1,2,3,4,5,6,7,8,9,10,100];
+x = random.choice(list1);
+print(x);
+
+# Random shuffle of a list
+list2 = ["Hey", "Hello", "Caio", "Marshmello"]
+print(list2);
+x = random.shuffle(list2);
+print(list2);

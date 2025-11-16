@@ -27,3 +27,5 @@ print(more_tea.count("Herbal"))
 (black, green, Oolong) = tea_types
 print(black)
 
+# more_tea.insert(1, "pink")
+# print(more_tea)

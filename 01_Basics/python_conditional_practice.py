@@ -50,6 +50,47 @@ def determine_fruit(fruit, color):
     else:
         exit()
 
-fruit = str(input("Enter Fruit: \n"))
-color = str(input("Enter the Color: \n"))
-determine_fruit(fruit, color)
+# fruit = str(input("Enter Fruit: \n"))
+# color = str(input("Enter the Color: \n"))
+# determine_fruit(fruit, color)
+
+# !Problem 4
+def mode_selection(dist):
+    if dist <= 3:
+        print("Go by Walk")
+    elif dist > 3 and dist < 15:
+        print("Go by Bike")
+    else:
+        print("Go by Car")
+
+# dist = int(input("Enter the distance in Kms: \n"))
+# mode_selection(dist)
+
+# !Problem 5
+def coffee_customization(order_size, extra_shot):
+    if(extra_shot):
+        order_size = order_size + " with extra " + extra_shot;
+
+    print(order_size)
+
+
+order_size = ""
+extra_shot = ""
+
+# order_size = str(input("Enter you order size: \n"))
+# extra_shot = str(input("Enter if you want Expresso: \n"))
+
+# coffee_customization(order_size, extra_shot)
+
+
+# !Problem 6
+
+def leap_year(year):
+    if(year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        print("It's a leap year")
+    else:
+        print("It is not a leap year")
+
+year = int(input("Enter you year: \n"))
+
+leap_year(year)

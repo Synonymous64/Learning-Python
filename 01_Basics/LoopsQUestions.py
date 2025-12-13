@@ -24,7 +24,7 @@ def calculate_the_sum_even(n):
 
 def reverseString(s):
     reverseStr = ""
-    for x in range(len(s) -1, -1, -1):
+    for x in range(len(s) -1, -1, -1):  
         reverseStr += s[x]
     return reverseStr
 
